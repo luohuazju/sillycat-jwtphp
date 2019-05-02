@@ -1,0 +1,16 @@
+{
+    "autoload" : {
+        "psr-0": {
+            "sillycatJWTPHP": "src/"
+        }
+    },
+    "require": {
+    	"firebase/php-jwt": "^5.0"
+    },
+    "require-dev": {
+        "php": ">=5.3.0",
+        "phpunit/phpunit": "~4.5.1",
+        "phpunit/dbunit": ">=1.2",
+        "phpunit/php-invoker": "*"
+    }
+}
